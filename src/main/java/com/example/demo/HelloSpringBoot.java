@@ -11,8 +11,7 @@ public class HelloSpringBoot {
 
     @RequestMapping("/")
     public String home(){
-		System.out.println("메세지 수정하였음");
-        return "Hello Spring boot World & Github Upload";
+        return "Hello Spring boot World";
     }
 
     public static void main(String[] args) {
